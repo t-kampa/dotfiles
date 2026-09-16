@@ -1,0 +1,50 @@
+# --- CLI: version control ---
+brew "git"
+brew "gh"                       # GitHub CLI
+
+# --- CLI: containers & virtualization ---
+brew "docker"
+brew "colima"                   # container runtime for macOS
+brew "ctop"                     # top-like interface for container metrics
+brew "lazydocker"               # terminal UI for docker and docker-compose
+
+# --- CLI: languages, package & version managers ---
+brew "pnpm"
+
+# --- CLI: shell & system utilities ---
+brew "btop"
+brew "fish"
+brew "lsd"
+brew "stow"
+brew "tree"
+
+# --- CLI: misc ---
+brew "exiftool"
+brew "ffmpeg"
+brew "openjdk"
+brew "herdr"                    # terminal agent multiplexer
+
+# --- Casks: dev tools ---
+cask "bruno"
+cask "iterm2"
+cask "rectangle"
+cask "visual-studio-code"
+cask "zed"
+
+# --- Casks: productivity ---
+cask "linear"
+cask "obsidian"
+cask "raycast"
+
+# --- Casks: media & communication ---
+cask "iina"
+cask "spotify"
+
+# --- Casks: system utilities ---
+cask "font-hack-nerd-font"
+cask "appcleaner"
+cask "clop"                     # image/video/clipboard optimiser
+cask "flux-app"                 # screen temperature adjuster
+cask "keka"                     # file archiver
+cask "shottr"                   # screenshot tool
+cask "thaw"                     # menu bar manager

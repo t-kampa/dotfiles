@@ -10,3 +10,6 @@ command -v stow >/dev/null 2>&1 || brew install stow
 # Symlink dotfiles packages into $HOME
 cd "$(dirname "$0")"
 stow -v -t ~ fish git vscode
+
+# Install Homebrew packages and casks
+brew bundle --file=./brew/Brewfile

@@ -7,6 +7,7 @@ Personal dotfiles managed with [GNU Stow](https://www.gnu.org/software/stow/). E
 - `fish/` — fish shell config, functions, plugins
 - `git/` — git config (`.gitconfig.local` is machine-local, git-ignored)
 - `vscode/` — VS Code settings
+- `brew/` — `Brewfile` with formulae and casks
 
 ## Setup on a new machine
 
