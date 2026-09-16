@@ -29,6 +29,15 @@ alias ll='ls -lh'
 alias lla='ls -lha'
 alias lt='ls --tree'
 
+# ---- DOCKER ----
+
+alias dc='docker compose'
+alias dps='docker ps'
+alias dpa='docker ps -a'
+alias dl='lazydocker'
+alias cls='colima start'
+alias clx='colima stop'
+
 # ---- iCloud ----
 
 set -g mobile_documents "$HOME/Library/Mobile Documents"
