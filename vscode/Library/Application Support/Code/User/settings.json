@@ -1,0 +1,185 @@
+{
+  // ========== EDITOR ==========
+  // ---- Font & Appearance
+  "editor.fontFamily": "Input Mono, Fira Code, Jetbrains Mono, Monaco, monospace",
+  "editor.fontSize": 14,
+  "editor.fontWeight": 400,
+  "editor.fontLigatures": true,
+  "editor.letterSpacing": 0.1,
+  "editor.lineHeight": 0,
+  "editor.renderWhitespace": "boundary",
+  "editor.unicodeHighlight.ambiguousCharacters": true,
+
+  // ---- Cursor & Scrolling
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "smooth",
+  "editor.smoothScrolling": true,
+
+  // ---- Guides & Brackets
+  "editor.guides.bracketPairs": "active",
+  "editor.guides.bracketPairsHorizontal": "active",
+  "editor.guides.highlightActiveBracketPair": true,
+  "editor.guides.highlightActiveIndentation": true,
+  "editor.guides.indentation": true,
+  "editor.linkedEditing": true,
+
+  // ---- Formatting
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.codeActionsOnSave": {
+    "source.removeUnusedImports": "always",
+    "source.organizeImports": "always",
+    "source.fixAll": "explicit",
+  },
+  "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+
+  // ---- Suggestions
+  "editor.inlineSuggest.enabled": true,
+  "editor.quickSuggestions": {
+    "strings": true,
+  },
+  // "editor.aiStats.enabled": true,
+
+  // ========== WINDOW ==========
+  "window.title": "${rootName}${separator}${activeFolderShort}${separator}${activeEditorShort}",
+  "window.autoDetectColorScheme": true,
+  "window.zoomLevel": 0,
+
+  // ========== WORKBENCH ==========
+  // ---- Behavior
+  "workbench.editor.enablePreview": false,
+  "workbench.browser.openLocalhostLinks": false,
+
+  // ---- Chat
+  "chat.viewSessions.orientation": "stacked",
+
+  // ---- Layout
+  "workbench.sideBar.location": "right",
+  "workbench.tree.indent": 10,
+  "workbench.activityBar.compact": false,
+
+  // ---- Theme & Polish
+  "workbench.iconTheme": "catppuccin-mocha",
+  "workbench.productIconTheme": "Default",
+  "workbench.preferredDarkColorTheme": "Catppuccin Mocha",
+  "workbench.preferredLightColorTheme": "Catppuccin Mocha",
+  "workbench.preferredHighContrastColorTheme": "Ayu Dark Bordered",
+  "workbench.list.smoothScrolling": true,
+  // "workbench.fontAliasing": "antialiased",
+
+  // ========== EXPLORER ==========
+  "explorer.compactFolders": false,
+  "explorer.decorations.colors": true,
+  "explorer.decorations.badges": true,
+
+  // ========== NPM ==========
+  "npm.packageManager": "bun",
+
+  // ========== GIT ==========
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "scm.inputMinLineCount": 3,
+  "scm.inputMaxLineCount": 10,
+
+  // ========== LANGUAGES ==========
+  // ---- JS / TS
+  "js/ts.updateImportsOnFileMove.enabled": "always",
+  "js/ts.updateImportsOnPaste.enabled": false,
+  "js/ts.autoClosingTags.enabled": true,
+  // ---- Prisma
+  "prisma.enableCodeLens": false,
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma",
+  },
+
+  // ========== COPILOT ==========
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "github.copilot.chat.agent.autoFix": true,
+  "github.copilot.chat.cloudAgent.enabled": false,
+  "github.copilot.chat.codesearch.enabled": true,
+  "github.copilot.chat.enableUserPreferences": true,
+  "github.copilot.chat.newWorkspace.useContext7": true,
+  "github.copilot.enable": {
+    "*": true,
+    "markdown": true,
+    "plaintext": true,
+    "scminput": true,
+  },
+
+  // ========== TERMINAL ==========
+  "terminal.integrated.defaultProfile.osx": "fish",
+  "terminal.integrated.fontFamily": "Hack Nerd Font Mono",
+  "terminal.integrated.smoothScrolling": true,
+
+  // ========== FILES ==========
+  "files.autoSave": "onFocusChange",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.watcherExclude": {
+    ".git/objects/**": true,
+    ".git/subtree-cache/**": true,
+    ".hg/store/**": true,
+    "*/.git/objects/**": true,
+    "*/.git/subtree-cache/**": true,
+    "*/.hg/store/**": true,
+    "**/node_modules/**": true,
+    "**/dist/**": true,
+    "**/.next/**": true,
+  },
+
+  // ========== SEARCH ==========
+  "search.smartCase": true,
+  "search.useIgnoreFiles": true,
+  "search.showLineNumbers": true,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/*.code-search": true,
+    "**/*.snap": true,
+    "**/*.svg": true,
+    "**/.git": true,
+    "**/.github": false,
+    "**/.next": true,
+    "**/.output": true,
+    "**/.bun": true,
+    "**/.vscode": true,
+    "**/.yarn": true,
+    "**/assets": true,
+    "**/dist/**": true,
+    "**/logs": true,
+    "**/out/**": true,
+    "**/package-lock.json": true,
+    "**/bun.yaml": true,
+    "**/public": true,
+    "**/temp": true,
+    "**/yarn.lock": true,
+    "**/CHANGELOG*": true,
+    "**/LICENSE*": true,
+  },
+
+  // ========== EXTENSIONS ==========
+  "gitlens.advanced.messages": {
+    "suppressIntegrationDisconnectedTooManyFailedRequestsWarning": true,
+    "suppressIntegrationRequestTimedOutWarning": true,
+  },
+  "cSpell.language": "en,de,de-DE",
+  "docker.extension.enableComposeLanguageServer": false,
+  "yaml.disableSchemaDetection": [
+    "**/docker-compose.yml",
+    "**/docker-compose.yaml",
+    "**/docker-compose.*.yml",
+    "**/docker-compose.*.yaml",
+    "**/compose.yml",
+    "**/compose.yaml",
+    "**/compose.*.yml",
+    "**/compose.*.yaml",
+    "**/.github/workflows/*.yml",
+    "**/.github/workflows/*.yaml",
+    "**/.gitea/workflows/*.yml",
+    "**/.gitea/workflows/*.yaml",
+    "**/.forgejo/workflows/*.yml",
+    "**/.forgejo/workflows/*.yaml",
+  ],
+}
