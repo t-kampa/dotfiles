@@ -31,10 +31,6 @@ alias lt='ls --tree'
 
 # ---- DOCKER ----
 
-alias dc='docker compose'
-alias dps='docker ps'
-alias dpa='docker ps -a'
-alias dl='lazydocker'
 alias cls='colima start'
 alias clx='colima stop'
 
@@ -52,5 +48,5 @@ alias brewinc='brew install --cask'
 
 # ---- DOCK ----
 
-alias add-dock-space="defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'; killall Dock"
-alias add-dock-small-space="defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="small-spacer-tile";}'; killall Dock"
+alias add-dock-space='defaults write com.apple.dock persistent-apps -array-add \'{"tile-type"="spacer-tile";}\'; killall Dock'
+alias add-dock-small-space='defaults write com.apple.dock persistent-apps -array-add \'{"tile-type"="small-spacer-tile";}\'; killall Dock'
