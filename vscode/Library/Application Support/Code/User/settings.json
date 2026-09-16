@@ -10,15 +10,6 @@
   "editor.renderWhitespace": "boundary",
   "editor.unicodeHighlight.ambiguousCharacters": true,
 
-  // ---- Theme & Polish
-  "workbench.iconTheme": "catppuccin-mocha",
-  "workbench.productIconTheme": "Default",
-  "workbench.preferredDarkColorTheme": "Catppuccin Mocha",
-  "workbench.preferredLightColorTheme": "Catppuccin Mocha",
-  "workbench.preferredHighContrastColorTheme": "Ayu Dark Bordered",
-  "workbench.list.smoothScrolling": true,
-  "workbench.fontAliasing": "antialiased",
-
   // ---- Cursor & Scrolling
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorBlinking": "smooth",
@@ -39,14 +30,14 @@
   "editor.codeActionsOnSave": {
     "source.removeUnusedImports": "always",
     "source.organizeImports": "always",
-    "source.fixAll": "explicit",
+    "source.fixAll": "explicit"
   },
   "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
 
   // ---- Suggestions
   "editor.inlineSuggest.enabled": true,
   "editor.quickSuggestions": {
-    "strings": true,
+    "strings": true
   },
   // "editor.aiStats.enabled": true,
 
@@ -56,6 +47,15 @@
   "window.zoomLevel": 0,
 
   // ========== WORKBENCH ==========
+  // ---- Theme & Polish
+  "workbench.iconTheme": "catppuccin-mocha",
+  "workbench.productIconTheme": "lucide-icons",
+  "workbench.preferredDarkColorTheme": "Catppuccin Mocha",
+  "workbench.preferredLightColorTheme": "Catppuccin Mocha",
+  "workbench.preferredHighContrastColorTheme": "Ayu Dark Bordered",
+  "workbench.list.smoothScrolling": true,
+  "workbench.fontAliasing": "antialiased",
+
   // ---- Behavior
   "workbench.editor.enablePreview": false,
   "workbench.browser.openLocalhostLinks": false,
@@ -90,7 +90,7 @@
   // ---- Prisma
   "prisma.enableCodeLens": false,
   "[prisma]": {
-    "editor.defaultFormatter": "Prisma.prisma",
+    "editor.defaultFormatter": "Prisma.prisma"
   },
 
   // ========== COPILOT ==========
@@ -104,7 +104,7 @@
     "*": true,
     "markdown": true,
     "plaintext": true,
-    "scminput": true,
+    "scminput": true
   },
 
   // ========== TERMINAL ==========
@@ -126,7 +126,7 @@
     "*/.hg/store/**": true,
     "**/node_modules/**": true,
     "**/dist/**": true,
-    "**/.next/**": true,
+    "**/.next/**": true
   },
 
   // ========== SEARCH ==========
@@ -156,25 +156,10 @@
     "**/temp": true,
     "**/yarn.lock": true,
     "**/CHANGELOG*": true,
-    "**/LICENSE*": true,
+    "**/LICENSE*": true
   },
 
-  // ========== EXTENSIONS ==========
-  "gitlens.advanced.messages": {
-    "suppressIntegrationDisconnectedTooManyFailedRequestsWarning": true,
-    "suppressIntegrationRequestTimedOutWarning": true,
-  },
-  "cSpell.language": "en,de,de-DE",
-  "docker.extension.enableComposeLanguageServer": false,
-  "yaml.disableSchemaDetection": [
-    "**/.github/workflows/*.yml",
-    "**/.github/workflows/*.yaml",
-    "**/.gitea/workflows/*.yml",
-    "**/.gitea/workflows/*.yaml",
-    "**/.forgejo/workflows/*.yml",
-    "**/.forgejo/workflows/*.yaml",
-  ],
-
+  // ========== FILE NESTING ==========
   // updated 2026-09-16
   // https://github.com/antfu/vscode-file-nesting-config
   "explorer.fileNesting.enabled": true,
@@ -283,6 +268,32 @@
     "*.vue": "$(capture).*.ts, $(capture).*.js, $(capture).story.vue",
     "*.w": "$(capture).*.w, I$(capture).w",
     "*.wat": "$(capture).wasm",
-    "*.xaml": "$(capture).xaml.cs",
+    "*.xaml": "$(capture).xaml.cs"
   },
+
+  // ========== EXTENSIONS ==========
+  "gitlens.advanced.messages": {
+    "suppressIntegrationDisconnectedTooManyFailedRequestsWarning": true,
+    "suppressIntegrationRequestTimedOutWarning": true
+  },
+  "cSpell.language": "en,de,de-DE",
+  "docker.extension.enableComposeLanguageServer": false,
+  "yaml.disableSchemaDetection": [
+    "**/.github/workflows/*.yml",
+    "**/.github/workflows/*.yaml",
+    "**/.gitea/workflows/*.yml",
+    "**/.gitea/workflows/*.yaml",
+    "**/.forgejo/workflows/*.yml",
+    "**/.forgejo/workflows/*.yaml"
+  ],
+  "json.schemaDownload.trustedDomains": {
+    "https://schemastore.azurewebsites.net/": true,
+    "https://raw.githubusercontent.com/microsoft/vscode/": true,
+    "https://raw.githubusercontent.com/devcontainers/spec/": true,
+    "https://www.schemastore.org/": true,
+    "https://json.schemastore.org/": true,
+    "https://json-schema.org/": true,
+    "https://developer.microsoft.com/json-schemas/": true,
+    "https://biomejs.dev": true
+  }
 }
