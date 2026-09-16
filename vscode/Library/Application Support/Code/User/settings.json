@@ -10,6 +10,15 @@
   "editor.renderWhitespace": "boundary",
   "editor.unicodeHighlight.ambiguousCharacters": true,
 
+  // ---- Theme & Polish
+  "workbench.iconTheme": "catppuccin-mocha",
+  "workbench.productIconTheme": "Default",
+  "workbench.preferredDarkColorTheme": "Catppuccin Mocha",
+  "workbench.preferredLightColorTheme": "Catppuccin Mocha",
+  "workbench.preferredHighContrastColorTheme": "Ayu Dark Bordered",
+  "workbench.list.smoothScrolling": true,
+  "workbench.fontAliasing": "antialiased",
+
   // ---- Cursor & Scrolling
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorBlinking": "smooth",
@@ -58,15 +67,6 @@
   "workbench.sideBar.location": "right",
   "workbench.tree.indent": 10,
   "workbench.activityBar.compact": false,
-
-  // ---- Theme & Polish
-  "workbench.iconTheme": "catppuccin-mocha",
-  "workbench.productIconTheme": "Default",
-  "workbench.preferredDarkColorTheme": "Catppuccin Mocha",
-  "workbench.preferredLightColorTheme": "Catppuccin Mocha",
-  "workbench.preferredHighContrastColorTheme": "Ayu Dark Bordered",
-  "workbench.list.smoothScrolling": true,
-  // "workbench.fontAliasing": "antialiased",
 
   // ========== EXPLORER ==========
   "explorer.compactFolders": false,
