@@ -4,10 +4,10 @@ Personal dotfiles managed with [GNU Stow](https://www.gnu.org/software/stow/). E
 
 ## Packages
 
+- `brew/` — `Brewfile` with formulae and casks
 - `fish/` — fish shell config, functions, plugins
 - `git/` — git config (`.gitconfig.local` is machine-local, git-ignored)
-- `vscode/` — VS Code settings
-- `brew/` — `Brewfile` with formulae and casks
+- `vscode/` — VS Code settings, not stowed ([vscode/README.md](./vscode/README.md))
 
 ## Setup on a new machine
 
