@@ -1,0 +1,178 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  // ========== EDITOR ==========
+  // ---- Font & Appearance
+  "buffer_font_family": "Input Mono",
+  "buffer_font_size": 14.0,
+  "buffer_font_weight": 300.0,
+  "buffer_line_height": "comfortable",
+  "buffer_font_fallbacks": [
+    "Fira Code",
+    "JetBrains Mono",
+    "Monaco",
+    "Courier New"
+  ],
+  "minimap": {
+    "thumb": "always",
+    "show": "auto",
+    "current_line_highlight": "all"
+  },
+
+  // ---- Cursor & Scrolling
+  "cursor_shape": "bar",
+  "cursor_blink": true,
+  "cursor_animation": {
+    "enabled": false
+  },
+  "sticky_scroll": {
+    "enabled": true
+  },
+
+  // ---- Guides & Brackets
+  "colorize_brackets": true,
+  "auto_indent_on_paste": true,
+  "indent_guides": {
+    "enabled": true,
+    "coloring": "indent_aware",
+    "active_line_width": 2
+  },
+  "linked_edits": true,
+
+  // ---- Formatting
+  "autosave": "on_focus_change",
+  "ensure_final_newline_on_save": true,
+  "format_on_save": "on",
+  "prettier": {
+    "allowed": true
+  },
+  "code_actions_on_format": {
+    // "source.fixAll.eslint": true,
+    "source.removeUnusedImports": true,
+    "source.organizeImports": true
+  },
+  "show_whitespaces": "selection",
+
+  // ---- Suggestions
+  "show_edit_predictions": false,
+
+  // ---- Keymap
+  "base_keymap": "VSCode",
+
+  // ========== WINDOW ==========
+  "cli_default_open_behavior": "new_window",
+  "ui_font_family": "Input Mono",
+  "ui_font_size": 14.0,
+  "ui_font_weight": 300.0,
+  "title_bar": {
+    "show_branch_status_icon": true,
+    "show_onboarding_banner": false,
+    "show_user_picture": false,
+    "show_sign_in": false
+  },
+
+  // ========== WORKBENCH ==========
+  // ---- Theme & Polish
+  "theme": {
+    "mode": "dark",
+    "light": "Catppuccin Latte",
+    "dark": "Catppuccin Mocha"
+  },
+  "icon_theme": "Catppuccin Mocha",
+
+  // ---- Layout
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "button": false,
+    "dock": "left"
+  },
+  "diff_view_style": "unified",
+  "toolbar": {
+    "breadcrumbs": true,
+    "code_actions": true
+  },
+  "status_bar": {
+    "show_active_file": false
+  },
+
+  // ---- Tabs
+  "tab_bar": {
+    "show_pinned_tabs_in_separate_row": false
+  },
+  "tabs": {
+    "file_icons": true,
+    "git_status": true,
+    "show_diagnostics": "errors"
+  },
+
+  // ========== EXPLORER ==========
+  "project_panel": {
+    "auto_fold_dirs": false,
+    "dock": "right",
+    "git_status_indicator": true,
+    "hide_root": true
+  },
+
+  // ========== GIT ==========
+  "git_panel": {
+    "tree_view": true,
+    "dock": "left",
+    "file_icons": true,
+    "group_by": "staging",
+    "show_count_badge": true
+  },
+
+  // ========== LANGUAGES ==========
+  "file_types": {
+    "JSONC": ["**/Code/User/settings.json", "**/Code/User/keybindings.json"]
+  },
+  "lsp": {
+    "vtsls": {
+      "settings": {
+        "typescript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always"
+          }
+        },
+        "javascript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always"
+          }
+        }
+      },
+      "enable_lsp_tasks": true
+    }
+  },
+
+  // ========== AGENT ==========
+  "agent": {
+    "button": false
+  },
+
+  // ========== TERMINAL ==========
+  "terminal": {
+    "font_size": 12,
+    "font_family": "Fira Code",
+    "font_fallbacks": ["JetBrains Mono", "Hack Nerd Font Mono", "Fira Code"]
+  },
+
+  // ========== SEARCH ==========
+  "search": {
+    "include_ignored": false
+  },
+  "use_smartcase_search": true,
+
+  // ========== MISC ==========
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  }
+}

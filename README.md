@@ -8,6 +8,7 @@ Personal dotfiles managed with [GNU Stow](https://www.gnu.org/software/stow/). E
 - `fish/` — fish shell config, functions, plugins
 - `git/` — git config (`.gitconfig.local` is machine-local, git-ignored)
 - `vscode/` — VS Code settings, not stowed ([vscode/README.md](./vscode/README.md))
+- `zed/` — Zed editor settings, not stowed ([zed/README.md](./zed/README.md))
 
 ## Setup on a new machine
 
